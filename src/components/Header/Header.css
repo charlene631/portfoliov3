@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--gradient-bg);
+  color: var(--text-primary);
+}
+
+.header h1 {
+  font-family: var(--font-title);
+  font-size: 2rem;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: var(--text-primary);
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.header nav a:hover {
+  color: var(--color-highlight);
+}
+
+.header button {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid var(--btn-border);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header button:hover {
+  background: var(--btn-bg-hover);
+}

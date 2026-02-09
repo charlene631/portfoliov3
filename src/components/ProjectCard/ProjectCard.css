@@ -1,0 +1,30 @@
+.project-card {
+  background: var(--card-bg);
+  color: var(--card-text);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px var(--card-shadow);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  background: var(--card-bg-hover);
+}
+
+.project-card h3 {
+  color: var(--card-title);
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-highlight);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: var(--color-accent);
+}
