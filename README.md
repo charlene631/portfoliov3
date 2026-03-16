@@ -1,3 +1,98 @@
+# Portfolio de Charlène – React + TypeScript + Vite
+
+Mon portfolio personnel développé avec **React**, **TypeScript** et **Vite**.  
+Il présente mes projets web, mon parcours et un espace contact.
+
+---
+
+## Structure du projet
+
+portfoliov3/
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.tsx
+│   ├── assets
+│   │   └── react.svg
+│   ├── components
+│   │   ├── Footer
+│   │   ├── Header
+│   │   └── ProjectCard
+│   ├── data
+│   │   └── projects.ts
+│   ├── hooks
+│   │   └── useDarkMode.ts
+│   ├── index.css
+│   ├── main.tsx
+│   └── sections
+│       ├── About.css
+│       ├── About.tsx
+│       ├── Contact.css
+│       ├── Contact.tsx
+│       ├── Hero.css
+│       ├── Hero.tsx
+│       └── Projects.tsx
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+
+---
+
+## Installation
+
+1. Cloner le projet :
+
+```bash
+git clone https://github.com/charlene631/portfoliov3.git
+
+```
+2. Installer les dépendances
+
+npm install
+
+3. Lancer le serveur de développement
+
+npm run dev
+
+4. Ouvrir le projet dans le navigateur
+
+http://localhost:5173
+
+## Fonctionnalités
+
+Affichage de mes projets avec des cartes interactives
+
+Mode sombre / clair
+
+Section contact avec liens cliquables (LinkedIn…)
+
+Layout responsive sans media query, entièrement fluide
+
+## Technologies utilisées
+
+React + TypeScript
+
+Vite
+
+Tailwind CSS
+
+React Icons
+
+ESLint pour la qualité de code
+
+## Licence 
+Ce projet est sous licence MIT. 
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
