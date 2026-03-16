@@ -22,7 +22,7 @@ export const projects: Project[] = [
     description: "API REST, gestion panier, commandes et Stripe. Le travail de reprise a notamment porté sur la migration de la base de données alwaysdata vers MariaDB, la prise en main et la réorganisation du backend, la migration, la compréhension, la clarification et la configuration globale du projet.",
     context: "Projet repris pour créer une base backend maintenable.",
     role: "Migration backend, restructuration du code et logique métier.",
-    techs: ["Node.js", "Express", "TypeScript", "MariaDB", "Stripe", "Docker"],
+    techs: ["Node.js", "Express", "TypeScript", "MariaDB"],
     repoUrl: "https://github.com/charlene631/ecommerce"
   },
   {

@@ -10,7 +10,6 @@ export default function Header() {
 
   return (
     <header className="header flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Mon Portfolio</h1>
       <nav className="space-x-6">
         <a href="#projects">Projets</a>
         <a href="#about">À propos</a>

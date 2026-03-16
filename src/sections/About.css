@@ -7,11 +7,12 @@
   font-family: var(--font-title);
   color: var(--card-title);
   margin-bottom: 1rem;
+  font-size: 2.5rem;
 }
 
 .hero p, .section p {
   color: var(--card-text);
   max-width: 600px;
   margin: 0 auto;
-  line-height: 1.6;
+  font-size: 1.40rem;
 }
