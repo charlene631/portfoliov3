@@ -15,7 +15,7 @@
   --text-primary: #f5f5f5;
 
   /* Accents / Dégradés */
-  --color-accent: #06135b;
+  --color-accent: #93c5fd;
   --color-highlight: #93c5fd;
   --color-secondary: #0b3d2e;
   --gradient-bg: linear-gradient(135deg, #35aeef, #06135b);
@@ -42,7 +42,7 @@
 :root[data-theme="light"] {
   --bg-primary: #f0f8ff;
   --text-primary: #0b3d2e;
-  --color-accent: #35aeef;
+  --color-accent: #06135b;
   --color-highlight: #93c5fd;
   --color-secondary: #0b3d2e;
   --gradient-bg: linear-gradient(135deg, #93c5fd, #35aeef);
