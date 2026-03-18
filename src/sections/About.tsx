@@ -12,7 +12,7 @@ export default function About() {
         <img src="/icons/react.svg" alt="React" />
         <img src="/icons/mysql.svg" alt="MySQL" />
         <img src="/icons/mongodb.svg" alt="MongoDB" />
-        <img src="/icons/typescript.svg" alt="TypeScript" />
+        <img src="/icons/typescript.png" alt="TypeScript" />
         <img src="/icons/git.svg" alt="Git" />
         <img src="/icons/ubuntu.png" alt="Ubuntu" />
         <img src="/icons/docker.svg" alt="Docker" />
