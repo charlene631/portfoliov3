@@ -13,10 +13,10 @@ export default function About() {
         <img src="/icons/mysql.svg" alt="MySQL" />
         <img src="/icons/mongodb.svg" alt="MongoDB" />
         <img src="/icons/typescript.png" alt="TypeScript" />
-        <img src="/icons/git.svg" alt="Git" />
-        <img src="/icons/ubuntu.png" alt="Ubuntu" />
+        <img src="/icons/commit-git.png" alt="Git" />
+        <img src="/icons/ubuntustyle.png" alt="Ubuntu" />
         <img src="/icons/docker.svg" alt="Docker" />
-        <img src="/icons/figma.svg" alt="Figma" />
+        <img src="/icons/figma.png" alt="Figma" />
         <img src="/icons/shield.png" alt="Sécurité" />
         <img src="/icons/artificial-intelligence star.png" alt="Intelligence Artificielle" />
       </div>
