@@ -14,7 +14,7 @@ export default function About() {
         <img src="/icons/mongodb.svg" alt="MongoDB" />
         <img src="/icons/typescript.svg" alt="TypeScript" />
         <img src="/icons/git.svg" alt="Git" />
-        <img src="/icons/ubuntu.svg" alt="Ubuntu" />
+        <img src="/icons/ubuntu.png" alt="Ubuntu" />
         <img src="/icons/docker.svg" alt="Docker" />
         <img src="/icons/figma.svg" alt="Figma" />
         <img src="/icons/shield.png" alt="Sécurité" />
