@@ -28,3 +28,8 @@
 .project-card a:hover {
   color: var(--color-secondary);
 }
+
+.project-card h3,
+.project-card a {
+  text-align: center;
+}
