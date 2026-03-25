@@ -14,7 +14,7 @@
 
 #about p, .section p {
   color: var(--card-text);
-  max-width: clamp(60ch, 60%, 60ch);
+  max-width: clamp(65ch, 60%, 60ch);
   font-size: 1.55rem;
   line-height: 1.6;
   margin-top: clamp(1.5rem, 2vw, 2rem);
