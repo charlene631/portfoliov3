@@ -2,7 +2,7 @@
   padding: clamp(2rem, 5vw, 4rem) 2rem;
   display: flex;
   flex-direction: column;
-  gap: clamp(2rem, 3vw, 2rem);
+  gap: clamp(2rem, 3vw, 3rem);
 }
 
 #about h1, .section h2 {
@@ -15,7 +15,7 @@
 #about p, .section p {
   color: var(--card-text);
   max-width: clamp(65ch, 60%, 60ch);
-  font-size: 1.55rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   margin-top: clamp(1.5rem, 2vw, 2rem);
   text-align: left;
