@@ -7,14 +7,14 @@ export default function Experience() {
 
       <div className="experience-container">
         <div className="experience-block">
-          <h3>Comprendre l'humain</h3>
+          <h3>Comprendre les besoins humains</h3>
           <p>
             Mon parcours s'est construit dans le domaine de la santé, où j’ai
             évolué progressivement jusqu’à exercer en tant qu’infirmière et à
             assurer des missions de cadre.
           </p>
           <p>
-            J’ai travaillé en radiothérapie, en psychiatrie et en EHPAD, dans
+            J’ai travaillé dans des services de pointe en radiothérapie, en psychiatrie et en EHPAD, dans
             des environnements exigeants où la rigueur, l’écoute et la gestion
             de situations complexes sont essentielles.
           </p>
@@ -34,7 +34,7 @@ export default function Experience() {
           </p>
           <p>
             J’ai travaillé en collaboration avec différents profils pour
-            structurer des projets créatifs (sons, clips vidéo) et faire émerger
+            structurer des projets créatifs (sons, clips vidéo, visuels) et faire émerger
             une direction cohérente, de l’intention à la réalisation.
           </p>
           <p>
@@ -60,7 +60,7 @@ export default function Experience() {
           <p>
             Aujourd’hui, je conçois des applications full stack en combinant
             exigence technique, compréhension des usages et attention
-            au parcours utilisateur.
+            au parcours utilisateur. Je continue à apprendre et à m’adapter.
           </p>
         </div>
       </div>
