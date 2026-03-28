@@ -23,7 +23,7 @@ export default function Experience() {
         <div className="experience-block">
           <h3>Univers artistique & musique</h3>
           <p>
-            En parallèle de ma transition vers le développement web, durant 5 ans, j’ai accompagné des artistes dans leurs projets
+            En parallèle de ma transition vers le développement web, durant 4 ans, j’ai accompagné des artistes dans leurs projets
             musicaux : coaching vocal, travail sur l’image, identité de marque
             et communication digitale.
           </p>
