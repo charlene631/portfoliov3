@@ -1,0 +1,106 @@
+.ambient-flow {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* wrapper */
+.wave-wrapper {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+/* base wave layer */
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 200%;
+  height: 100%;
+
+  background-image: url('/wavee.svg');
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: bottom;
+
+  transform: translateZ(0);
+}
+
+/* ===================== */
+/* LAYER 1 — profondeur */
+/* ===================== */
+.wave1 {
+  opacity: 0.05;
+  filter: blur(4px);
+  mix-blend-mode: soft-light;
+
+  animation: driftSlow 140s linear infinite;
+}
+
+/* ===================== */
+/* LAYER 2 — medium */
+/* ===================== */
+.wave2 {
+  opacity: 0.15;
+  filter: blur(2px);
+  mix-blend-mode: soft-light;
+
+  animation: driftMedium 90s linear infinite;
+}
+
+/* ===================== */
+/* LAYER 3 — surface */
+/* ===================== */
+.wave3 {
+  opacity: 0.15;
+  filter: blur(3px);
+  mix-blend-mode: soft-light;
+
+  animation: driftFast 60s linear infinite;
+}
+
+/* ===================== */
+/* MOVEMENT KEYFRAMES */
+/* ===================== */
+
+/* boucle propre (important: reset seamless) */
+@keyframes driftSlow {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-25%) translateY(-6px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes driftMedium {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-35%) translateY(-3px);
+  }
+  100% {
+    transform: translateX(-70%) translateY(0);
+  }
+}
+
+@keyframes driftFast {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-45%) translateY(-2px);
+  }
+  100% {
+    transform: translateX(-90%) translateY(0);
+  }
+}

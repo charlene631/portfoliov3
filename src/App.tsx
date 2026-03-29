@@ -5,6 +5,7 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import Footer from "./components/Footer/Footer";
+import AmbientFlow from "./components/AmbientFlow/AmbientFlow";
 import "./App.css";
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Projects />
         <About />
         <Experience />
+        <AmbientFlow />
         <Contact />
       </main>
       <Footer />
