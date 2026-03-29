@@ -68,7 +68,7 @@
 /* MOVEMENT KEYFRAMES */
 /* ===================== */
 
-/* boucle propre (important: reset seamless) */
+/* boucle*/
 @keyframes driftSlow {
   0% {
     transform: translateX(0) translateY(0);
