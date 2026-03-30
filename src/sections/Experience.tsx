@@ -21,7 +21,7 @@ export default function Experience() {
           <p>
             Durant 10 ans, j’y ai développé une compréhension fine des
             comportements et des besoins humains, ainsi qu'une capacité à
-            prendre des décisions dans des contextes à forte responsabilité. Approfondir le travail en équipe.
+            prendre des décisions dans des contextes à forte responsabilité, et approfondir le travail en équipe.
           </p>
         </div>
 
