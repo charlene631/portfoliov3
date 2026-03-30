@@ -23,7 +23,7 @@
   width: 200%;
   height: 100%;
 
-  background-image: url('/wavee.svg');
+  background-image: url('/wave5.svg');
   background-repeat: repeat-x;
   background-size: contain;
   background-position: bottom;
@@ -69,16 +69,19 @@
 /* ===================== */
 
 @keyframes driftSlow {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+  0%   { transform: translateX(0) translateY(0px); }
+  50%  { transform: translateX(-30%) translateY(-4px); }
+  100% { transform: translateX(-60%) translateY(0px); }
 }
 
 @keyframes driftMedium {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-60%); }
+  0%   { transform: translateX(0) translateY(0px); }
+  50%  { transform: translateX(-40%) translateY(-2px); }
+  100% { transform: translateX(-80%) translateY(0px); }
 }
 
 @keyframes driftFast {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-70%); }
+  0%   { transform: translateX(0) translateY(0px); }
+  50%  { transform: translateX(-50%) translateY(-1px); }
+  100% { transform: translateX(-100%) translateY(0px); }
 }
