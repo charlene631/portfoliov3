@@ -39,7 +39,7 @@
   filter: blur(4px);
   mix-blend-mode: soft-light;
 
-  animation: driftSlow 140s linear infinite;
+  animation: driftSlow 170s linear infinite;
 }
 
 /* ===================== */
@@ -50,7 +50,7 @@
   filter: blur(2px);
   mix-blend-mode: soft-light;
 
-  animation: driftMedium 90s linear infinite;
+  animation: driftMedium 110s linear infinite;
 }
 
 /* ===================== */
@@ -61,7 +61,7 @@
   filter: blur(3px);
   mix-blend-mode: soft-light;
 
-  animation: driftFast 60s linear infinite;
+  animation: driftFast 70s linear infinite;
 }
 
 /* ===================== */
