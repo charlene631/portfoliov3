@@ -55,7 +55,7 @@ export default function Experience() {
           <p>
             Je me suis formée au développement full stack, en travaillant avec
             Node.js, Express et TypeScript, ainsi que sur des bases de données
-            SQL et NoSQL, avec une attention particulière portée au responvive et à la sécurité.
+            SQL et NoSQL, avec une attention particulière portée au responsive et à la sécurité.
           </p>
           <p>
             Aujourd’hui, je conçois des applications full stack en combinant
