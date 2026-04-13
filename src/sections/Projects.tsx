@@ -7,7 +7,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <> 
-     <h2 className="projects-title">Infrastructure</h2>
+     <h2 className="projects-title">Infrastructure & Systèmes</h2>
       <section id="technical-projects" className="technical-projects-section">
         {technicalProjects.map((project) => (
           <TechnicalProjectCard key={project.title} project={project} />
