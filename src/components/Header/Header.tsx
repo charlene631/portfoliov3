@@ -10,9 +10,10 @@ export default function Header() {
 
   return (
     <header className="header flex justify-between items-center">
-      <nav className="space-x-6">
+      <nav className="header-nav flex flex-wrap items-center gap-4">
         <a href="#about">À propos</a>
         <a href="#experience">Parcours</a>
+        <a href="#technical-projects">Infrastructure</a>
         <a href="#projects">Projets</a>        
         <a href="#contact">Contact</a>
       </nav>

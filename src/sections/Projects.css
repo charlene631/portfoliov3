@@ -1,0 +1,35 @@
+/* Section projets de développement" */
+
+.projects-title {
+  font-family: var(--font-title);
+  color: var(--card-title);
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  max-width: clamp(65ch, 60%, 65ch);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-tech h3 {
+  font-family: var(--font-title);
+  color: var(--card-title);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.projects-tech {
+  max-width: clamp(65ch, 60%, 65ch);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.projects-tech p {
+  color: var(--card-text);
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  text-align: left;
+  margin-top: 0;
+}

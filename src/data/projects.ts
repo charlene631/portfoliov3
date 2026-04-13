@@ -11,7 +11,7 @@ export type Project = {
 export const projects: Project[] = [
     {
         title: "Écrire à la mer",
-        description: "Application web d'expression intime inspirée du concept de bouteille à la mer. Flux authentification, gestion des rôles, sécurité, CRUD complet, style CSS personnalisé, base de données cloud, déploiement. Implémentation de fonctionnalités spécifiques au projet orienté user-friendly. Insertion d'intelligence artificielle pour la modération de contenu et l'amélioration de l'expérience utilisateur en cours.",
+        description: "Application web d'expression intime inspirée du concept de bouteille à la mer. Flux authentification, gestion des rôles, sécurité, CRUD complet, style CSS personnalisé, base de données cloud, déploiement. Implémentation de fonctionnalités spécifiques au projet orienté user-friendly. Insertion d'intelligence artificielle pour la modération de contenu et l'amélioration de l'expérience utilisateur à moyen terme.",
         context: "Projet de fin d'études en développement web validé avec félicitations du jury.",
         role: "Conception et développement full stack de l'application avec architecture hybride.",
         techs: ["Node.js", "Express", "MongoDB", "PostgreSQL", "React", "Render", "Tests Postman"],

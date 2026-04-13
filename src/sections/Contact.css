@@ -11,14 +11,6 @@
   margin-bottom: 1rem;
 }
 
-.hero p,
-.section p {
-  color: var(--card-text);
-  max-width: 600px;
-  margin: 0 auto;
-  font-size: 1.4rem;
-}
-
 #contact a {
   display: inline-flex;
   justify-content: center;

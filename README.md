@@ -16,29 +16,44 @@ portfoliov3/
 ├── postcss.config.cjs
 ├── public
 │   └── vite.svg
-├── src
-│   ├── App.css
-│   ├── App.tsx
-│   ├── assets
-│   │   └── react.svg
-│   ├── components
-│   │   ├── Footer
-│   │   ├── Header
-│   │   └── ProjectCard
-│   ├── data
-│   │   └── projects.ts
-│   ├── hooks
-│   │   └── useDarkMode.ts
-│   ├── index.css
-│   ├── main.tsx
-│   └── sections
-│       ├── About.css
-│       ├── About.tsx
-│       ├── Contact.css
-│       ├── Contact.tsx
-│       ├── Hero.css
-│       ├── Hero.tsx
-│       └── Projects.tsx
+src
+├── App.css
+├── App.tsx
+├── assets
+│   └── react.svg
+├── components
+│   ├── AmbientFlow
+│   │   ├── AmbientFlow.css
+│   │   └── AmbientFlow.tsx
+│   ├── Footer
+│   │   ├── Footer.css
+│   │   └── Footer.tsx
+│   ├── Header
+│   │   ├── Header.css
+│   │   └── Header.tsx
+│   └── ProjectCard
+│       ├── ProjectCard.css
+│       ├── ProjectCard.tsx
+│       ├── TechnicalProjectCard.css
+│       └── technicalProjectCard.tsx
+├── data
+│   ├── projects.ts
+│   └── technicalProjects.ts
+├── hooks
+│   └── useDarkMode.ts
+├── index.css
+├── main.tsx
+└── sections
+    ├── About.css
+    ├── About.tsx
+    ├── Contact.css
+    ├── Contact.tsx
+    ├── Experience.css
+    ├── Experience.tsx
+    ├── Hero.css
+    ├── Hero.tsx
+    ├── Projects.css
+    └── Projects.tsx
 ├── tailwind.config.js
 ├── tsconfig.app.json
 ├── tsconfig.json

@@ -12,15 +12,6 @@
   font-size: 2.5rem;
 }
 
-#about p, .section p {
-  color: var(--card-text);
-  max-width: clamp(65ch, 60%, 60ch);
-  font-size: 1.3rem;
-  line-height: 1.6;
-  margin-top: clamp(1.5rem, 2vw, 2rem);
-  text-align: left;
-}
-
 .stack {
   display: flex;
   justify-content: center;

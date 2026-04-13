@@ -1,0 +1,106 @@
+/* Section des projets techniques IT" */
+
+.technical-projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 4vw, 3rem);
+  max-width: min(90%, 1500px);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.technical-project-card {
+  background: var(--card-bg);
+  color: var(--card-text);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px var(--card-shadow);
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.technical-project-card:hover {
+  transform: scale(1.03);
+  background: var(--card-bg-hover);
+}
+
+.technical-project-card h3 {
+  color: var(--card-title);
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.technical-project-card .content-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 2rem;
+}
+
+.technical-project-card:nth-child(odd) .content-wrapper {
+  flex-direction: row;
+}
+
+.technical-project-card:nth-child(even) .content-wrapper {
+  flex-direction: row-reverse;
+}
+
+.technical-project-card .text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.technical-project-card .text-content p {
+  color: var(--card-text);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.technical-project-card .screenshot-container {
+  flex: 1;
+  display: flex;
+  align-self: stretch;
+}
+
+.technical-project-card .screenshot-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--card-shadow);
+}
+
+.technical-project-card .links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.technical-project-card .links a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: var(--btn-bg);
+  transition: background 0.3s ease;
+}
+
+.technical-project-card .links a:hover {
+  background: var(--btn-bg-hover);
+  color: var(--color-secondary);
+}
+
+/* Responsive: Empiler verticalement sur les petits écrans */
+@media (max-width: 768px) {
+  .technical-project-card .content-wrapper {
+    flex-direction: column !important;
+  }
+}

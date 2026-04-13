@@ -17,16 +17,18 @@
   font-family: poppins, sans-serif;
   color: var(--card-text);
   margin-bottom: 1rem;
-  font-size: 1.55rem;
+  font-size: 1.8rem;
   max-width: clamp(65ch, 60%, 65ch);
   margin-left: auto;
   margin-right: auto;
 }
 
 
-.hero p, .section p {
+.hero-description {
   color: var(--card-text);
-  max-width: 600px;
+  max-width: 80%;
   line-height: 1.6;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
