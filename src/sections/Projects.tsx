@@ -7,10 +7,12 @@ import "./Projects.css";
 
 type Props = {
   readonly mode: PortfolioMode;
-  readonly showDevFirst: boolean;
 };
 
-export default function Projects({ mode, showDevFirst }: Props) {
+export default function Projects({ mode }: Props) {
+  const isDevFirst = mode === 'dev';
+
+  // Séparation du projet SaaS et des autres projets dev pour mise en avant
   const saasProject = projects.find(p => p.title === "Text Analysis SaaS");
   const fullStackProjects = projects.filter(p => p.title !== "Text Analysis SaaS");
 
@@ -43,18 +45,15 @@ export default function Projects({ mode, showDevFirst }: Props) {
     </>
   );
 
-  // INVERSION DE L'ORDRE
-  if (showDevFirst) {
-    return (
+
+    return  isDevFirst ? (
       <>
         {DevProjectsSection}
         {TechProjectsSection}
       </>
-    );
-  }
+    ) : (
 
   // MODE TECH : infra d'abord
-  return (
     <>
       {TechProjectsSection}
       {DevProjectsSection}

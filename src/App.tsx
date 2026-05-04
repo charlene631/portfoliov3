@@ -17,22 +17,12 @@ export default function App() {
       <main>
         <Hero mode={mode} />
         
-        {/* INVERSION DE L'ORDRE DES PROJETS SELON LE MODE */}
-        {mode === 'dev' ? (
-          <>
-            {/* MODE DEV : projets dev en premier */}
-            <Projects mode={mode} showDevFirst />
+            <Projects mode={mode} />
             <About mode={mode} />
             <Experience mode={mode} />
-          </>
-        ) : (
-          <>
-            {/* MODE TECH : projets infra/système en premier */}
-            <Projects mode={mode} showDevFirst={false} />
+      
             <About mode={mode} />
             <Experience mode={mode} />
-          </>
-        )}
         
         <Contact />
       </main>
