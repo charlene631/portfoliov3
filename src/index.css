@@ -3,69 +3,60 @@
 @tailwind utilities;
 
 /* ============================================================
-   VARIABLES GLOBALES — DARK MODE
+   SYSTÈME DE DESIGN MINIMALISTE
 ============================================================ */
+
 :root {
-  /* Polices */
-  --font-title: "Cinzel", serif;
-  --font-subtitle: "Great Vibes", cursive;
-
-  /* Couleurs principales */
-  --bg-primary: #020f12;       
-  --text-primary: #f5f5f5;
-
-  /* Accents / Dégradés */
-  --color-accent: #93c5fd;
-  --color-highlight: #93c5fd;
-  --color-secondary: #0b3d2e;
-  --gradient-bg: linear-gradient(135deg, #35aeef, #06135b);
-
-  /* Boutons */
-  --btn-bg: rgba(255,255,255,0.15);
-  --btn-bg-hover: rgba(255,255,255,0.3);
-  --btn-text: #f5f5f5;
-  --btn-border: rgba(255,255,255,0.3);
-
-  /* Cartes */
-  --card-bg: rgba(3, 25, 60, 0.7);
-  --card-bg-hover: rgba(3, 25, 60, 0.85);
-  --card-shadow: rgba(0,0,0,0.3);
-  --card-title: #93c5fd;
-  --card-text: #d1d1d1;
-
-  font-family: "Poppins", sans-serif;
+  /* Typographie */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", sans-serif;
+  
+  /* DARK MODE (par défaut) */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #151515;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --accent: #6366f1;
+  --accent-hover: #818cf8;
+  --border: rgba(255,255,255,0.1);
+  --shadow: rgba(0,0,0,0.3);
 }
 
-/* ============================================================
-   LIGHT MODE
-============================================================ */
+/* LIGHT MODE */
 :root[data-theme="light"] {
-  --bg-primary: #f0f8ff;
-  --text-primary: #0b3d2e;
-  --color-accent: #06135b;
-  --color-highlight: #93c5fd;
-  --color-secondary: #0b3d2e;
-  --gradient-bg: linear-gradient(135deg, #93c5fd, #35aeef);
-
-  --btn-bg: #e0f2fe;
-  --btn-bg-hover: #bae6fd;
-  --btn-text: #0b3d2e;
-  --btn-border: #0b3d2e;
-
-  --card-bg: #ffffff;
-  --card-bg-hover: #f0f9ff;
-  --card-shadow: rgba(0,0,0,0.1);
-  --card-title: #0b3d2e;
-  --card-text: #0b3d2e;
+  --bg-primary: #f8f8f8;
+  --bg-secondary: #ffffff;
+  --text-primary: #0a0a0a;
+  --text-secondary: #666666;
+  --accent: #6366f1;
+  --accent-hover: #4f46e5;
+  --border: rgba(0,0,0,0.1);
+  --shadow: rgba(0,0,0,0.1);
 }
 
 /* RESET */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html, body, #root { height: 100%; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-/* GLOBAL */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: var(--font-sans);
   background: var(--bg-primary);
   color: var(--text-primary);
-  transition: all 0.3s ease;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }

@@ -11,26 +11,26 @@ export type Project = {
 export const projects: Project[] = [
     {
         title: "Écrire à la mer",
-        description: "Application web d'expression intime inspirée du concept de bouteille à la mer. Flux authentification, gestion des rôles, sécurité, CRUD complet, style CSS personnalisé, base de données cloud, déploiement. Implémentation de fonctionnalités spécifiques au projet orienté user-friendly. J’ai développé une couche de simulation IA backend, testée en environnement serveur, en cours d’intégration frontend pour enrichir l’expérience utilisateur.",
-        context: "Projet de fin d'étude TP Développeur Web et Web mobile, diplôme validé avec félicitations du jury.",
-        role: "Conception et développement full stack de l'application avec architecture hybride.",
-        techs: ["Node.js", "Express", "MongoDB", "PostgreSQL", "React", "Render", "Tests Postman"],
+        description: "Application full stack d'expression intime avec authentification, gestion des rôles et CRUD complet. Architecture sécurisée, base de données cloud et interface orientée expérience utilisateur.",
+        context: "Projet de fin d’étude – Développeur Web et Web Mobile (validé avec félicitations du jury)",
+        role: "Développement full stack et conception de l’architecture applicative",
+        techs: ["Node.js", "Express", "MongoDB", "React", "Render", "Postman"],
         liveUrl: "https://ecrirealamer-front.onrender.com",
     },
    {
-    title: "E-commerce TypeScript",
-    description: "API REST, gestion panier, commandes et Stripe. Le travail de reprise a notamment porté sur la migration de la base de données alwaysdata vers MariaDB, la prise en main et la réorganisation du backend, la migration en TypeScript, la compréhension, la clarification et la configuration globale du projet. Tests Postman pour valider les fonctionnalités et la stabilité de l’API.",
-    context: "Projet de groupe repris indépendamment pour créer une base backend en TypeScript.",
-    role: "Migration backend, restructuration du code et logique métier.",
-    techs: ["Node.js", "Express", "TypeScript", "Stripe", "MariaDB", "Docker", "Tests Postman"],
-    repoUrl: "https://github.com/charlene631/ecommerce"
+    title: "Text Analysis SaaS",
+    description: "Service d'analyse de documents (CV, LinkedIn) transformant du texte brut en données structurées via extraction, scoring et normalisation.",
+    context: "Projet personnel full stack – orientation SaaS et architecture backend",
+    role: "Conception du moteur d'analyse, API FastAPI, structuration des données et scoring personnalisé",
+    techs: ["FastAPI", "Python", "NLP", "React", "Docker"],
+    repoUrl: "https://github.com/charlene631/text-analysis-service"
   },
   {
     title: "Accessiweb",
-    description: "Projet d'origine collaboratif réalisé en hackathon de 4 jours sur l’accessibilité web. Reprise de ce projet pour améliorer l’architecture backend. Plateforme web permettant de consulter et gérer une bibliothèque sur les normes d’accessibilité et les catégories accessibles. Prototype d'application avec un système d’authentification sécurisé et gestion des rôles et une configuration claire.",
-    context: "Projet Hackathon présenté devant une quarantaine de participants en ligne.",
-    role: "Participation au backend et structuration des fonctionnalités, reprise pour homogénéiser l’architecture.",
-    techs: ["Node.js", "Express", "MongoDB", "React", "Render", "Vercel", "Tests Postman"],
+    description: "Plateforme collaborative sur l’accessibilité web avec gestion de contenu et authentification sécurisée.",
+    context: "Hackathon 4 jours – présentation en équipe devant participants en ligne",
+    role: "Contribution backend et reprise de l’architecture pour homogénéisation",
+    techs: ["Node.js", "Express", "MongoDB", "React", "Render", "Vercel", "Postman"],
     repoUrl: "https://github.com/charlene631/accessiweb"
   }
 ];

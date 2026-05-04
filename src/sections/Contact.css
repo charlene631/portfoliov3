@@ -1,33 +1,27 @@
-.hero,
-.section {
-  padding: 4rem 2rem;
+#contact {
+  padding: 6rem 2rem;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.hero h1,
-.section h2 {
-  font-family: var(--font-title);
-  color: var(--card-title);
-  margin-bottom: 1rem;
+#contact h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 3rem;
 }
 
-#contact a {
+.contact-link {
   display: inline-flex;
-  justify-content: center;
   align-items: center;
-  font-size: 2.5rem; /* taille de l'icône */
-  color: var(--color-highlight);
-  transition: transform 0.2s ease, color 0.2s ease;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--accent);
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-#contact a:hover {
-  color: var(--color-accent);
-  transform: scale(1.15);
-}
-
-#contact .contact-link {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2.5rem; 
+.contact-link:hover {
+  color: var(--accent-hover);
+  transform: scale(1.1);
 }
