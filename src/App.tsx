@@ -20,9 +20,6 @@ export default function App() {
             <Projects mode={mode} />
             <About mode={mode} />
             <Experience mode={mode} />
-      
-            <About mode={mode} />
-            <Experience mode={mode} />
         
         <Contact />
       </main>
