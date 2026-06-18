@@ -12,6 +12,11 @@
   margin-top: 4rem;
 }
 
+.projects-title.web {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-top: 3rem;
+}
+
 /* Grid projets dev */
 .projects-grid {
   display: grid;

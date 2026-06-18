@@ -21,7 +21,7 @@ export default function Hero({ mode }: Props) {
   // MODE TECH (par défaut)
   return (
     <section className="hero">
-      <h1>Technicienne informatique en alternance</h1>
+      <h1>Technicienne informatique</h1>
       <h2>Système, infrastructure & réseau — avec compétences en développement et appétence pour la sécurité</h2>
       <p className="hero-description">
         Je recherche une entreprise pour développer mes compétences en administration système, support utilisateur et infrastructure réseau, en m'appuyant sur mon bagage en développement.

@@ -3,6 +3,10 @@
 Mon portfolio personnel développé avec **React**, **TypeScript** et **Vite**.  
 Il présente mes projets web, mon parcours et un espace contact.
 
+# Profil
+portfoliov3.com — profil technicien (défaut)
+portfoliov3.com?mode=dev — profil développeur
+
 ---
 
 ## Structure du projet
@@ -63,7 +67,7 @@ src
 
 ---
 
-## Installation
+### Installation
 
 1. Cloner le projet :
 
@@ -83,7 +87,7 @@ npm run dev
 
 http://localhost:5173
 
-## Fonctionnalités
+#### Fonctionnalités
 
 Affichage de mes projets avec des cartes interactives
 
@@ -93,7 +97,7 @@ Section contact avec liens cliquables (LinkedIn…)
 
 Layout responsive sans media query, entièrement fluide
 
-## Technologies utilisées
+##### Technologies utilisées
 
 React + TypeScript
 
@@ -105,7 +109,7 @@ React Icons
 
 ESLint pour la qualité de code
 
-## Licence 
+###### Licence 
 Ce projet est sous licence MIT. 
 
 ## React + TypeScript + Vite

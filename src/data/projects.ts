@@ -32,5 +32,13 @@ export const projects: Project[] = [
     role: "Contribution backend et reprise de l’architecture pour homogénéisation",
     techs: ["Node.js", "Express", "MongoDB", "React", "Render", "Vercel", "Postman"],
     repoUrl: "https://github.com/charlene631/accessiweb"
-  }
+  },
+  {
+    title: "Site e-commerce",
+    description: "Site e-commerce de vente de thé de luxe avec gestion de panier, paiement et interface utilisateur responsive.",
+    context: "Projet fictif académique - Marketing digital et développement web",
+    role: "Développement frontend et intégration des fonctionnalités de e-commerce",
+    techs: [ "WordPress","Elementor", "WooCommerce", "hébergement"],
+    liveUrl: "https://www.thetiptop.g-wave.fr/",
+  },
 ];

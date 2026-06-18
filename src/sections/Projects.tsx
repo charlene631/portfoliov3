@@ -14,29 +14,37 @@ export default function Projects({ mode }: Props) {
 
   // Séparation du projet SaaS et des autres projets dev pour mise en avant
   const saasProject = projects.find(p => p.title === "Text Analysis SaaS");
-  const fullStackProjects = projects.filter(p => p.title !== "Text Analysis SaaS");
+  const siteWebProjects = projects.filter(p => p.title.includes("e-commerce"));
+  const fullStackProjects = projects.filter(p => p.title !== "Text Analysis SaaS" && p.title !== "Site e-commerce");
 
   // Sections de projets dev
   const DevProjectsSection = (
     <>
-      <h2 className="projects-title highlight">Projet le plus récent</h2>
+      <h3 className="projects-title highlight">Projet le plus récent</h3>
       <section className="hero-project">
         {saasProject && <ProjectCard project={saasProject} />}
       </section>
 
-      <h2 className="projects-title">Applications web</h2>
+      <h3 className="projects-title">Applications web</h3>
       <section className="projects-grid">
         {fullStackProjects.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
       </section>
+
+      <h3 className="projects-title web">Autres projets</h3>
+      <section className="projects-grid">
+        {siteWebProjects.map((project) => (
+          <ProjectCard key={project.title} project={project} />
+        ))}
+      </section>         
     </>
   );
 
   // Section projets infra/système
   const TechProjectsSection = (
     <>
-      <h2 className="projects-title">Infrastructure & systèmes</h2>
+      <h3 className="projects-title">Infrastructure & systèmes</h3>
       <section className="technical-projects-section">
         {technicalProjects.map((project) => (
           <TechnicalProjectCard key={project.title} project={project} />
@@ -44,7 +52,6 @@ export default function Projects({ mode }: Props) {
       </section>
     </>
   );
-
 
     return  isDevFirst ? (
       <>
